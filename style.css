@@ -1,0 +1,46 @@
+/* общие стили */
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1140px;
+  /* border: 1px solid; */
+  margin: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* стили хэдера */
+header {
+  background-color: dimgray;
+  height: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* стили навигации */
+nav {
+  background-color: rgb(92, 84, 84);
+}
+/* стили контентной части */
+section {
+  background-color: rgb(145, 122, 122);
+}
+.section-item {
+  background-color: rgb(175, 165, 165);
+}
+/* сайд-бар */
+.sidebar-right {
+  background-color: rgb(180, 118, 118);
+}
+footer {
+  background-color: rgb(124, 54, 54);
+}
