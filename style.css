@@ -70,8 +70,8 @@ section {
 }
 footer {
   background-color: rgb(124, 54, 54);
-  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
