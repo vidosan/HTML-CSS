@@ -11,7 +11,6 @@ header {
   justify-content: space-evenly;
   align-items: center;
   border: 2px black;
-  border-style: inset;
   margin: 0;
   padding: 0;
 }
@@ -28,48 +27,51 @@ section {
   border: none;
   background-color: crimson;
   height: 2px;
-  width: 50%;
+  width: 30%;
+  margin: 10px;
 }
 .red {
   color: rgb(216, 16, 16);
+  padding: 50px;
 }
 
 .container {
-  background-color: rgb(145, 122, 122);
   display: flex;
   justify-content: space-around;
+  margin: 100px;
+  flex: 1 0 auto;
 }
 .section-item {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(175, 165, 165);
-  border-style: double;
   justify-content: center;
   text-align: center;
-  width: 20%;
+  width: 196px;
 }
+
 .siren {
-  margin-left: 10%;
   display: flex;
+  justify-content: space-evenly; 
+
+}
+.text-siren {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  width: 50%;
+  width: 10%;
 }
-.image {
-  width: 300px;
-  height: 170px;
-  border: none;
-}
+
 footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
-  background-color: rgb(190, 146, 201);
+  display: flex;
   color: #ffffff;
   background-color: #ffb5b5;
   font-family: Montserrat;
   justify-content: center;
   align-items: center;
   text-align: center;
+  /* position: absolute; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
 }
