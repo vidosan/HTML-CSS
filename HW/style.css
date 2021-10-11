@@ -3,7 +3,7 @@ body {
   height: 1920;
   width: 1410;
   padding: 0;
-  /* margin: 10%; */
+  margin: 0;
 }
 
 header {
@@ -15,10 +15,12 @@ header {
   border: 2px black;
   margin: 0;
   padding: 0;
+  
 }
 h1 {
   text-align: center;
   color: #424242;
+  
 }
 section {
   display: flex;
@@ -42,6 +44,7 @@ section {
   display: flex;
   justify-content: space-around;
   margin: 100px;
+    
 }
 .section-item {
   display: flex;
