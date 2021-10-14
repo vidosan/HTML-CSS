@@ -1,0 +1,147 @@
+/*общие стили*/
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  box-shadow: -2px -2px;
+}
+/*стили хэдера*/
+.header-top {
+  border-bottom: 1px solid #dedede;
+}
+.header-top-info {
+  display: flex;
+  justify-content: space-between;
+  height: 67px;
+  align-items: center;
+}
+.top-menu {
+  display: flex;
+  width: 945px;
+  justify-content: space-between;
+}
+.top-menu-left,
+.top-menu-right {
+  display: flex;
+  justify-content: space-between;
+}
+.top-menu-left a,
+.top-menu-right a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #424242;
+}
+.top-menu-left {
+  width: 352px;
+}
+.top-menu-right {
+  width: 340px;
+}
+.main-menu-list {
+  display: flex;
+  justify-content: space-between;
+  height: 73px;
+  align-items: center;
+}
+.main-menu-list a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #424242;
+  font-weight: 500;
+}
+/*стили баннера*/
+.banner-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-info-offer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 232px;
+  width: 437px;
+  justify-content: space-between;
+}
+.text {
+  font-size: 52px;
+  /* height: 114px;
+  width: 427px; */
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: double;
+  height: 55px;
+  width: 200px;
+  text-decoration: none;
+}
+.offer-main {
+}
+.offers {
+  height: 830px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.offer-test {
+  font-size: 26px;
+  margin: 70px 0;
+}
+.frameOffer {
+  background-color: antiquewhite;
+  display: flex;
+  height: 300px;
+  width: 555px;
+}
+.frameOfferText {
+  margin: 34px;
+}
+.creditcart {
+  display: flex;
+  background-color: 3a95ff;
+}
+
+.cardSet {
+  display: flex;
+  justify-content: space-evenly;
+}
+.days {
+  width: 651px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.tipycart {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 497px;
+  background-color: rgb(0, 102, 255);
+  justify-content: space-between;
+}
+.tipy {
+  height: 235px;
+}
+.option {
+  display: flex;
+  width: 545px;
+  
+  justify-content: space-between;
+  margin: 0;padding: 0;
+}
+.opt {
+	display: flex;
+	justify-content: space-evenly;
+  width: 157px;
+  height: 48,5px;  border-bottom: 2px solid rgb(173, 19, 19);
+}
